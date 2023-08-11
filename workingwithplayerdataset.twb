@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='English Players+ (Player Data)' inline='true' name='federated.13iis5q1w5hmmh10idwka1oy34s9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Player Data' name='excel-direct.1krm70r12v21ty11vvztd1jru9v4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Data Science/workingiwthtableau/Datasets/Player Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='English Players+' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='ID' />
+            <column datatype='string' name='Name' />
+            <column datatype='integer' name='Age' />
+            <column datatype='string' name='Photo' />
+            <column datatype='string' name='Nationality' />
+            <column datatype='integer' name='Overall' />
+            <column datatype='integer' name='Potential' />
+            <column datatype='integer' name='Special' />
+            <column datatype='string' name='Preferred Foot' />
+            <column datatype='integer' name='International Reputation' />
+            <column datatype='integer' name='Weak Foot' />
+            <column datatype='string' name='Skill Moves' />
+            <column datatype='string' name='Work Rate' />
+            <column datatype='string' name='Body Type' />
+            <column datatype='string' name='Real Face' />
+            <column datatype='string' name='Position' />
+            <column datatype='string' name='Jersey Number' />
+            <column datatype='string' name='Joined' />
+            <column datatype='string' name='Contract Valid Until' />
+            <column datatype='string' name='Height' />
+            <column datatype='integer' name='Weight' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1krm70r12v21ty11vvztd1jru9v4' name='English Players' table='[&apos;English Players$&apos;]' type='table'>
+            <columns gridOrigin='A1:U716:no:A1:U716:0' header='yes' outcome='2'>
+              <column datatype='string' name='ID' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+              <column datatype='integer' name='Age' ordinal='2' />
+              <column datatype='string' name='Photo' ordinal='3' />
+              <column datatype='string' name='Nationality' ordinal='4' />
+              <column datatype='integer' name='Overall' ordinal='5' />
+              <column datatype='integer' name='Potential' ordinal='6' />
+              <column datatype='integer' name='Special' ordinal='7' />
+              <column datatype='string' name='Preferred Foot' ordinal='8' />
+              <column datatype='integer' name='International Reputation' ordinal='9' />
+              <column datatype='integer' name='Weak Foot' ordinal='10' />
+              <column datatype='string' name='Skill Moves' ordinal='11' />
+              <column datatype='string' name='Work Rate' ordinal='12' />
+              <column datatype='string' name='Body Type' ordinal='13' />
+              <column datatype='string' name='Real Face' ordinal='14' />
+              <column datatype='string' name='Position' ordinal='15' />
+              <column datatype='string' name='Jersey Number' ordinal='16' />
+              <column datatype='string' name='Joined' ordinal='17' />
+              <column datatype='string' name='Contract Valid Until' ordinal='18' />
+              <column datatype='string' name='Height' ordinal='19' />
+              <column datatype='integer' name='Weight' ordinal='20' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1krm70r12v21ty11vvztd1jru9v4' name='Non English Players' table='[&apos;Non English Players$&apos;]' type='table'>
+            <columns gridOrigin='A1:U750:no:A1:U750:0' header='yes' outcome='2'>
+              <column datatype='string' name='ID' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+              <column datatype='integer' name='Age' ordinal='2' />
+              <column datatype='string' name='Photo' ordinal='3' />
+              <column datatype='string' name='Nationality' ordinal='4' />
+              <column datatype='integer' name='Overall' ordinal='5' />
+              <column datatype='integer' name='Potential' ordinal='6' />
+              <column datatype='integer' name='Special' ordinal='7' />
+              <column datatype='string' name='Preferred Foot' ordinal='8' />
+              <column datatype='integer' name='International Reputation' ordinal='9' />
+              <column datatype='integer' name='Weak Foot' ordinal='10' />
+              <column datatype='string' name='Skill Moves' ordinal='11' />
+              <column datatype='string' name='Work Rate' ordinal='12' />
+              <column datatype='string' name='Body Type' ordinal='13' />
+              <column datatype='string' name='Real Face' ordinal='14' />
+              <column datatype='string' name='Position' ordinal='15' />
+              <column datatype='string' name='Jersey Number' ordinal='16' />
+              <column datatype='string' name='Joined' ordinal='17' />
+              <column datatype='string' name='Contract Valid Until' ordinal='18' />
+              <column datatype='string' name='Height' ordinal='19' />
+              <column datatype='integer' name='Weight' ordinal='20' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='English Players+' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='ID' />
+            <column datatype='string' name='Name' />
+            <column datatype='integer' name='Age' />
+            <column datatype='string' name='Photo' />
+            <column datatype='string' name='Nationality' />
+            <column datatype='integer' name='Overall' />
+            <column datatype='integer' name='Potential' />
+            <column datatype='integer' name='Special' />
+            <column datatype='string' name='Preferred Foot' />
+            <column datatype='integer' name='International Reputation' />
+            <column datatype='integer' name='Weak Foot' />
+            <column datatype='string' name='Skill Moves' />
+            <column datatype='string' name='Work Rate' />
+            <column datatype='string' name='Body Type' />
+            <column datatype='string' name='Real Face' />
+            <column datatype='string' name='Position' />
+            <column datatype='string' name='Jersey Number' />
+            <column datatype='string' name='Joined' />
+            <column datatype='string' name='Contract Valid Until' />
+            <column datatype='string' name='Height' />
+            <column datatype='integer' name='Weight' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1krm70r12v21ty11vvztd1jru9v4' name='English Players' table='[&apos;English Players$&apos;]' type='table'>
+            <columns gridOrigin='A1:U716:no:A1:U716:0' header='yes' outcome='2'>
+              <column datatype='string' name='ID' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+              <column datatype='integer' name='Age' ordinal='2' />
+              <column datatype='string' name='Photo' ordinal='3' />
+              <column datatype='string' name='Nationality' ordinal='4' />
+              <column datatype='integer' name='Overall' ordinal='5' />
+              <column datatype='integer' name='Potential' ordinal='6' />
+              <column datatype='integer' name='Special' ordinal='7' />
+              <column datatype='string' name='Preferred Foot' ordinal='8' />
+              <column datatype='integer' name='International Reputation' ordinal='9' />
+              <column datatype='integer' name='Weak Foot' ordinal='10' />
+              <column datatype='string' name='Skill Moves' ordinal='11' />
+              <column datatype='string' name='Work Rate' ordinal='12' />
+              <column datatype='string' name='Body Type' ordinal='13' />
+              <column datatype='string' name='Real Face' ordinal='14' />
+              <column datatype='string' name='Position' ordinal='15' />
+              <column datatype='string' name='Jersey Number' ordinal='16' />
+              <column datatype='string' name='Joined' ordinal='17' />
+              <column datatype='string' name='Contract Valid Until' ordinal='18' />
+              <column datatype='string' name='Height' ordinal='19' />
+              <column datatype='integer' name='Weight' ordinal='20' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1krm70r12v21ty11vvztd1jru9v4' name='Non English Players' table='[&apos;Non English Players$&apos;]' type='table'>
+            <columns gridOrigin='A1:U750:no:A1:U750:0' header='yes' outcome='2'>
+              <column datatype='string' name='ID' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+              <column datatype='integer' name='Age' ordinal='2' />
+              <column datatype='string' name='Photo' ordinal='3' />
+              <column datatype='string' name='Nationality' ordinal='4' />
+              <column datatype='integer' name='Overall' ordinal='5' />
+              <column datatype='integer' name='Potential' ordinal='6' />
+              <column datatype='integer' name='Special' ordinal='7' />
+              <column datatype='string' name='Preferred Foot' ordinal='8' />
+              <column datatype='integer' name='International Reputation' ordinal='9' />
+              <column datatype='integer' name='Weak Foot' ordinal='10' />
+              <column datatype='string' name='Skill Moves' ordinal='11' />
+              <column datatype='string' name='Work Rate' ordinal='12' />
+              <column datatype='string' name='Body Type' ordinal='13' />
+              <column datatype='string' name='Real Face' ordinal='14' />
+              <column datatype='string' name='Position' ordinal='15' />
+              <column datatype='string' name='Jersey Number' ordinal='16' />
+              <column datatype='string' name='Joined' ordinal='17' />
+              <column datatype='string' name='Contract Valid Until' ordinal='18' />
+              <column datatype='string' name='Height' ordinal='19' />
+              <column datatype='integer' name='Weight' ordinal='20' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Photo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Photo]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Photo</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nationality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nationality]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Nationality</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Overall]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Overall</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Potential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Potential]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Potential</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Special</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Special]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Special</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Preferred Foot</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Preferred Foot]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Preferred Foot</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International Reputation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[International Reputation]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>International Reputation</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weak Foot</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weak Foot]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Weak Foot</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Skill Moves</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Skill Moves]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Skill Moves</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work Rate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Work Rate]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Work Rate</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Body Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Body Type]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Body Type</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Real Face</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Real Face]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Real Face</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Position</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Position]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Position</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jersey Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Jersey Number]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Jersey Number</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Joined</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Joined]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Joined</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Contract Valid Until</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Contract Valid Until]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Contract Valid Until</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Height</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Height]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Height</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weight]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Weight</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[English Players+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Height (Inches)' datatype='integer' name='[Calculation_1628614272705949696]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Height - Split 1]*12) + [Height - Split 2]' />
+      </column>
+      <column aggregation='CountD' caption='Height - Split 1' datatype='integer' datatype-customized='true' name='[Height - Split 1]' role='measure' type='quantitative' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Height]'>
+        <calculation class='tableau' formula='INT(TRIM( SPLIT( [Height], &quot;&apos;&quot;, 1 ) ))' />
+      </column>
+      <column aggregation='CountD' caption='Height - Split 2' datatype='integer' datatype-customized='true' name='[Height - Split 2]' role='measure' type='quantitative' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Height]'>
+        <calculation class='tableau' formula='INT(TRIM( SPLIT( [Height], &quot;&apos;&quot;, 2 ) ))' />
+      </column>
+      <column datatype='string' name='[Skill Moves]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;1&quot;' value='Weak Skill' />
+          <alias key='&quot;2&quot;' value='Below Average' />
+          <alias key='&quot;3&quot;' value='Average Skill' />
+          <alias key='&quot;4&quot;' value='Above Average' />
+          <alias key='&quot;5&quot;' value='High Skill' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='English Players' datatype='table' name='[__tableau_internal_object_id__].[English Players_B61893886070479EA417233883BC76E6]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='ID' />
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Age' />
+        <field-sort-custom-order field='Photo' />
+        <field-sort-custom-order field='Nationality' />
+        <field-sort-custom-order field='Overall' />
+        <field-sort-custom-order field='Potential' />
+        <field-sort-custom-order field='Special' />
+        <field-sort-custom-order field='Preferred Foot' />
+        <field-sort-custom-order field='International Reputation' />
+        <field-sort-custom-order field='Weak Foot' />
+        <field-sort-custom-order field='Skill Moves' />
+        <field-sort-custom-order field='Work Rate' />
+        <field-sort-custom-order field='Body Type' />
+        <field-sort-custom-order field='Real Face' />
+        <field-sort-custom-order field='Position' />
+        <field-sort-custom-order field='Jersey Number' />
+        <field-sort-custom-order field='Joined' />
+        <field-sort-custom-order field='Contract Valid Until' />
+        <field-sort-custom-order field='Height' />
+        <field-sort-custom-order field='Weight' />
+        <field-sort-custom-order field='Sheet' />
+        <field-sort-custom-order field='Table Name' />
+        <field-sort-custom-order field='Height - Split 1' />
+        <field-sort-custom-order field='Calculation_1628614272705949696' />
+        <field-sort-custom-order field='Height - Split 2' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='English Players' id='English Players_B61893886070479EA417233883BC76E6'>
+            <properties context=''>
+              <relation all='true' name='English Players+' type='union'>
+                <columns header='yes'>
+                  <column datatype='string' name='ID' />
+                  <column datatype='string' name='Name' />
+                  <column datatype='integer' name='Age' />
+                  <column datatype='string' name='Photo' />
+                  <column datatype='string' name='Nationality' />
+                  <column datatype='integer' name='Overall' />
+                  <column datatype='integer' name='Potential' />
+                  <column datatype='integer' name='Special' />
+                  <column datatype='string' name='Preferred Foot' />
+                  <column datatype='integer' name='International Reputation' />
+                  <column datatype='integer' name='Weak Foot' />
+                  <column datatype='string' name='Skill Moves' />
+                  <column datatype='string' name='Work Rate' />
+                  <column datatype='string' name='Body Type' />
+                  <column datatype='string' name='Real Face' />
+                  <column datatype='string' name='Position' />
+                  <column datatype='string' name='Jersey Number' />
+                  <column datatype='string' name='Joined' />
+                  <column datatype='string' name='Contract Valid Until' />
+                  <column datatype='string' name='Height' />
+                  <column datatype='integer' name='Weight' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='excel-direct.1krm70r12v21ty11vvztd1jru9v4' name='English Players' table='[&apos;English Players$&apos;]' type='table'>
+                  <columns gridOrigin='A1:U716:no:A1:U716:0' header='yes' outcome='2'>
+                    <column datatype='string' name='ID' ordinal='0' />
+                    <column datatype='string' name='Name' ordinal='1' />
+                    <column datatype='integer' name='Age' ordinal='2' />
+                    <column datatype='string' name='Photo' ordinal='3' />
+                    <column datatype='string' name='Nationality' ordinal='4' />
+                    <column datatype='integer' name='Overall' ordinal='5' />
+                    <column datatype='integer' name='Potential' ordinal='6' />
+                    <column datatype='integer' name='Special' ordinal='7' />
+                    <column datatype='string' name='Preferred Foot' ordinal='8' />
+                    <column datatype='integer' name='International Reputation' ordinal='9' />
+                    <column datatype='integer' name='Weak Foot' ordinal='10' />
+                    <column datatype='string' name='Skill Moves' ordinal='11' />
+                    <column datatype='string' name='Work Rate' ordinal='12' />
+                    <column datatype='string' name='Body Type' ordinal='13' />
+                    <column datatype='string' name='Real Face' ordinal='14' />
+                    <column datatype='string' name='Position' ordinal='15' />
+                    <column datatype='string' name='Jersey Number' ordinal='16' />
+                    <column datatype='string' name='Joined' ordinal='17' />
+                    <column datatype='string' name='Contract Valid Until' ordinal='18' />
+                    <column datatype='string' name='Height' ordinal='19' />
+                    <column datatype='integer' name='Weight' ordinal='20' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1krm70r12v21ty11vvztd1jru9v4' name='Non English Players' table='[&apos;Non English Players$&apos;]' type='table'>
+                  <columns gridOrigin='A1:U750:no:A1:U750:0' header='yes' outcome='2'>
+                    <column datatype='string' name='ID' ordinal='0' />
+                    <column datatype='string' name='Name' ordinal='1' />
+                    <column datatype='integer' name='Age' ordinal='2' />
+                    <column datatype='string' name='Photo' ordinal='3' />
+                    <column datatype='string' name='Nationality' ordinal='4' />
+                    <column datatype='integer' name='Overall' ordinal='5' />
+                    <column datatype='integer' name='Potential' ordinal='6' />
+                    <column datatype='integer' name='Special' ordinal='7' />
+                    <column datatype='string' name='Preferred Foot' ordinal='8' />
+                    <column datatype='integer' name='International Reputation' ordinal='9' />
+                    <column datatype='integer' name='Weak Foot' ordinal='10' />
+                    <column datatype='string' name='Skill Moves' ordinal='11' />
+                    <column datatype='string' name='Work Rate' ordinal='12' />
+                    <column datatype='string' name='Body Type' ordinal='13' />
+                    <column datatype='string' name='Real Face' ordinal='14' />
+                    <column datatype='string' name='Position' ordinal='15' />
+                    <column datatype='string' name='Jersey Number' ordinal='16' />
+                    <column datatype='string' name='Joined' ordinal='17' />
+                    <column datatype='string' name='Contract Valid Until' ordinal='18' />
+                    <column datatype='string' name='Height' ordinal='19' />
+                    <column datatype='integer' name='Weight' ordinal='20' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5B62502F-95FA-42A0-AABA-34D494B5C1A0}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8AFB0CB5-5AE2-4C92-8627-71016C45ABE8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
