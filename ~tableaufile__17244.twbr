@@ -1,0 +1,1505 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Chicago Filming Permits (Chicago Filming Dataset)' inline='true' name='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Chicago Filming Dataset' name='excel-direct.1k8nodo09p6prq1frbvru0h5ou8z'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Data Science/workingiwthtableau/Datasets/Chicago Filming Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1k8nodo09p6prq1frbvru0h5ou8z' name='Chicago Filming Permits' table='[&apos;Chicago Filming Permits$&apos;]' type='table'>
+          <columns gridOrigin='A1:AW10001:no:A1:AW10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Number of Records' ordinal='0' />
+            <column datatype='string' name='Application Number' ordinal='1' />
+            <column datatype='string' name='Application Type' ordinal='2' />
+            <column datatype='string' name='Application Description' ordinal='3' />
+            <column datatype='string' name='Work Type' ordinal='4' />
+            <column datatype='string' name='Worktype Description' ordinal='5' />
+            <column datatype='string' name='Application Status' ordinal='6' />
+            <column datatype='string' name='Current Milestone' ordinal='7' />
+            <column datatype='date' name='Application Start Date' ordinal='8' />
+            <column datatype='date' name='Application End Date' ordinal='9' />
+            <column datatype='date' name='Application Process Date' ordinal='10' />
+            <column datatype='date' name='Application Issue Date' ordinal='11' />
+            <column datatype='date' name='Application Finalized Date' ordinal='12' />
+            <column datatype='date' name='Application Expired Date' ordinal='13' />
+            <column datatype='string' name='Application Name' ordinal='14' />
+            <column datatype='string' name='Comments' ordinal='15' />
+            <column datatype='integer' name='Total Fees' ordinal='16' />
+            <column datatype='integer' name='Waived Fees' ordinal='17' />
+            <column datatype='string' name='Primary Contact Last' ordinal='18' />
+            <column datatype='string' name='Primary Contact First' ordinal='19' />
+            <column datatype='string' name='Primary Contact Middle' ordinal='20' />
+            <column datatype='string' name='Primary Contact Street' ordinal='21' />
+            <column datatype='string' name='Primary Contact Street 2' ordinal='22' />
+            <column datatype='string' name='Primary Contact City' ordinal='23' />
+            <column datatype='string' name='Primary Contact State' ordinal='24' />
+            <column datatype='integer' name='Primary Contact Zip' ordinal='25' />
+            <column datatype='string' name='Emergency Contact Name' ordinal='26' />
+            <column datatype='integer' name='Last Inspection Number' ordinal='27' />
+            <column datatype='string' name='Last Inspection Type' ordinal='28' />
+            <column datatype='string' name='Last Inspection Year' ordinal='29' />
+            <column datatype='date' name='Last Inspection Date' ordinal='30' />
+            <column datatype='string' name='Last Inspection Result' ordinal='31' />
+            <column datatype='integer' name='Street Number From' ordinal='32' />
+            <column datatype='integer' name='Street Number To' ordinal='33' />
+            <column datatype='string' name='Direction' ordinal='34' />
+            <column datatype='string' name='Street Name' ordinal='35' />
+            <column datatype='string' name='Suffix' ordinal='36' />
+            <column datatype='string' name='Placement' ordinal='37' />
+            <column datatype='string' name='Street Closure' ordinal='38' />
+            <column datatype='string' name='Detail' ordinal='39' />
+            <column datatype='string' name='Parking Meters Bagged' ordinal='40' />
+            <column datatype='real' name='Latitude' ordinal='41' />
+            <column datatype='real' name='Longitude' ordinal='42' />
+            <column datatype='string' name='Location' ordinal='43' />
+            <column datatype='integer' name='Boundaries - ZIP Codes' ordinal='44' />
+            <column datatype='integer' name='Community Areas' ordinal='45' />
+            <column datatype='integer' name='Zip Codes' ordinal='46' />
+            <column datatype='integer' name='Census Tracts' ordinal='47' />
+            <column datatype='integer' name='Wards' ordinal='48' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1k8nodo09p6prq1frbvru0h5ou8z' name='Chicago Filming Permits' table='[&apos;Chicago Filming Permits$&apos;]' type='table'>
+          <columns gridOrigin='A1:AW10001:no:A1:AW10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Number of Records' ordinal='0' />
+            <column datatype='string' name='Application Number' ordinal='1' />
+            <column datatype='string' name='Application Type' ordinal='2' />
+            <column datatype='string' name='Application Description' ordinal='3' />
+            <column datatype='string' name='Work Type' ordinal='4' />
+            <column datatype='string' name='Worktype Description' ordinal='5' />
+            <column datatype='string' name='Application Status' ordinal='6' />
+            <column datatype='string' name='Current Milestone' ordinal='7' />
+            <column datatype='date' name='Application Start Date' ordinal='8' />
+            <column datatype='date' name='Application End Date' ordinal='9' />
+            <column datatype='date' name='Application Process Date' ordinal='10' />
+            <column datatype='date' name='Application Issue Date' ordinal='11' />
+            <column datatype='date' name='Application Finalized Date' ordinal='12' />
+            <column datatype='date' name='Application Expired Date' ordinal='13' />
+            <column datatype='string' name='Application Name' ordinal='14' />
+            <column datatype='string' name='Comments' ordinal='15' />
+            <column datatype='integer' name='Total Fees' ordinal='16' />
+            <column datatype='integer' name='Waived Fees' ordinal='17' />
+            <column datatype='string' name='Primary Contact Last' ordinal='18' />
+            <column datatype='string' name='Primary Contact First' ordinal='19' />
+            <column datatype='string' name='Primary Contact Middle' ordinal='20' />
+            <column datatype='string' name='Primary Contact Street' ordinal='21' />
+            <column datatype='string' name='Primary Contact Street 2' ordinal='22' />
+            <column datatype='string' name='Primary Contact City' ordinal='23' />
+            <column datatype='string' name='Primary Contact State' ordinal='24' />
+            <column datatype='integer' name='Primary Contact Zip' ordinal='25' />
+            <column datatype='string' name='Emergency Contact Name' ordinal='26' />
+            <column datatype='integer' name='Last Inspection Number' ordinal='27' />
+            <column datatype='string' name='Last Inspection Type' ordinal='28' />
+            <column datatype='string' name='Last Inspection Year' ordinal='29' />
+            <column datatype='date' name='Last Inspection Date' ordinal='30' />
+            <column datatype='string' name='Last Inspection Result' ordinal='31' />
+            <column datatype='integer' name='Street Number From' ordinal='32' />
+            <column datatype='integer' name='Street Number To' ordinal='33' />
+            <column datatype='string' name='Direction' ordinal='34' />
+            <column datatype='string' name='Street Name' ordinal='35' />
+            <column datatype='string' name='Suffix' ordinal='36' />
+            <column datatype='string' name='Placement' ordinal='37' />
+            <column datatype='string' name='Street Closure' ordinal='38' />
+            <column datatype='string' name='Detail' ordinal='39' />
+            <column datatype='string' name='Parking Meters Bagged' ordinal='40' />
+            <column datatype='real' name='Latitude' ordinal='41' />
+            <column datatype='real' name='Longitude' ordinal='42' />
+            <column datatype='string' name='Location' ordinal='43' />
+            <column datatype='integer' name='Boundaries - ZIP Codes' ordinal='44' />
+            <column datatype='integer' name='Community Areas' ordinal='45' />
+            <column datatype='integer' name='Zip Codes' ordinal='46' />
+            <column datatype='integer' name='Census Tracts' ordinal='47' />
+            <column datatype='integer' name='Wards' ordinal='48' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AW10001:no:A1:AW10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Application Number]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Number</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Application Type]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Application Description]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Description</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Work Type]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Work Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Worktype Description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Worktype Description]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Worktype Description</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Application Status]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Status</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current Milestone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Current Milestone]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Current Milestone</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Start Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Application Start Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Start Date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application End Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Application End Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application End Date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Process Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Application Process Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Process Date</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Issue Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Application Issue Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Issue Date</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Finalized Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Application Finalized Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Finalized Date</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Expired Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Application Expired Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Expired Date</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Application Name]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Application Name</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Comments]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Comments</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fees</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Fees]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Total Fees</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waived Fees</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Waived Fees]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Waived Fees</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact Last</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact Last]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact Last</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact First</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact First]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact First</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact Middle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact Middle]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact Middle</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact Street</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact Street]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact Street</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact Street 2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact Street 2]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact Street 2</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact City]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact City</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Contact State]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact State</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Contact Zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Primary Contact Zip]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Primary Contact Zip</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Emergency Contact Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Emergency Contact Name]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Emergency Contact Name</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Inspection Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Last Inspection Number]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Last Inspection Number</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Inspection Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Last Inspection Type]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Last Inspection Type</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Inspection Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Last Inspection Year]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Last Inspection Year</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Inspection Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Last Inspection Date]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Last Inspection Date</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Inspection Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Last Inspection Result]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Last Inspection Result</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street Number From</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Street Number From]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Street Number From</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street Number To</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Street Number To]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Street Number To</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Direction</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Direction]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Direction</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Street Name]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Street Name</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Suffix</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Suffix]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Suffix</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Placement</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Placement]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Placement</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street Closure</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Street Closure]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Street Closure</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Detail</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Detail]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Detail</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parking Meters Bagged</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Parking Meters Bagged]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Parking Meters Bagged</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Boundaries - ZIP Codes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Boundaries - ZIP Codes]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Boundaries - ZIP Codes</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Community Areas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Community Areas]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Community Areas</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip Codes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zip Codes]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Zip Codes</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Census Tracts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Census Tracts]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Census Tracts</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wards]</local-name>
+            <parent-name>[Chicago Filming Permits]</parent-name>
+            <remote-alias>Wards</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Boundaries - ZIP Codes]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Days Spent Shooting' datatype='integer' name='[Calculation_969399876317540352]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Application Start Date],MAX([Application End Date], [Application Expired Date])) + 1' />
+      </column>
+      <column caption='Fees Per Day' datatype='real' name='[Calculation_969399876319293441]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Total Fees] - ZN([Waived Fees]))/[Calculation_969399876317540352]' />
+      </column>
+      <column caption='Independent or Big budget' datatype='string' name='[Calculation_969399876320677890]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_969399876319293441] =25 THEN &quot;Independent&quot; &#13;&#10;ELSEIF [Calculation_969399876319293441]=250 THEN &quot;Big Budget&quot;&#13;&#10;ELSE NULL&#13;&#10;END' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Census Tracts]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Community Areas]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Last Inspection Number]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='string' name='[Primary Contact City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Primary Contact State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Primary Contact Zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Wards]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zip Codes]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Chicago Filming Permits' datatype='table' name='[__tableau_internal_object_id__].[Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Chicago Filming Permits' id='Chicago Filming Permits_8157F3CE0C9C46B59E9048B49FC463E5'>
+            <properties context=''>
+              <relation connection='excel-direct.1k8nodo09p6prq1frbvru0h5ou8z' name='Chicago Filming Permits' table='[&apos;Chicago Filming Permits$&apos;]' type='table'>
+                <columns gridOrigin='A1:AW10001:no:A1:AW10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Number of Records' ordinal='0' />
+                  <column datatype='string' name='Application Number' ordinal='1' />
+                  <column datatype='string' name='Application Type' ordinal='2' />
+                  <column datatype='string' name='Application Description' ordinal='3' />
+                  <column datatype='string' name='Work Type' ordinal='4' />
+                  <column datatype='string' name='Worktype Description' ordinal='5' />
+                  <column datatype='string' name='Application Status' ordinal='6' />
+                  <column datatype='string' name='Current Milestone' ordinal='7' />
+                  <column datatype='date' name='Application Start Date' ordinal='8' />
+                  <column datatype='date' name='Application End Date' ordinal='9' />
+                  <column datatype='date' name='Application Process Date' ordinal='10' />
+                  <column datatype='date' name='Application Issue Date' ordinal='11' />
+                  <column datatype='date' name='Application Finalized Date' ordinal='12' />
+                  <column datatype='date' name='Application Expired Date' ordinal='13' />
+                  <column datatype='string' name='Application Name' ordinal='14' />
+                  <column datatype='string' name='Comments' ordinal='15' />
+                  <column datatype='integer' name='Total Fees' ordinal='16' />
+                  <column datatype='integer' name='Waived Fees' ordinal='17' />
+                  <column datatype='string' name='Primary Contact Last' ordinal='18' />
+                  <column datatype='string' name='Primary Contact First' ordinal='19' />
+                  <column datatype='string' name='Primary Contact Middle' ordinal='20' />
+                  <column datatype='string' name='Primary Contact Street' ordinal='21' />
+                  <column datatype='string' name='Primary Contact Street 2' ordinal='22' />
+                  <column datatype='string' name='Primary Contact City' ordinal='23' />
+                  <column datatype='string' name='Primary Contact State' ordinal='24' />
+                  <column datatype='integer' name='Primary Contact Zip' ordinal='25' />
+                  <column datatype='string' name='Emergency Contact Name' ordinal='26' />
+                  <column datatype='integer' name='Last Inspection Number' ordinal='27' />
+                  <column datatype='string' name='Last Inspection Type' ordinal='28' />
+                  <column datatype='string' name='Last Inspection Year' ordinal='29' />
+                  <column datatype='date' name='Last Inspection Date' ordinal='30' />
+                  <column datatype='string' name='Last Inspection Result' ordinal='31' />
+                  <column datatype='integer' name='Street Number From' ordinal='32' />
+                  <column datatype='integer' name='Street Number To' ordinal='33' />
+                  <column datatype='string' name='Direction' ordinal='34' />
+                  <column datatype='string' name='Street Name' ordinal='35' />
+                  <column datatype='string' name='Suffix' ordinal='36' />
+                  <column datatype='string' name='Placement' ordinal='37' />
+                  <column datatype='string' name='Street Closure' ordinal='38' />
+                  <column datatype='string' name='Detail' ordinal='39' />
+                  <column datatype='string' name='Parking Meters Bagged' ordinal='40' />
+                  <column datatype='real' name='Latitude' ordinal='41' />
+                  <column datatype='real' name='Longitude' ordinal='42' />
+                  <column datatype='string' name='Location' ordinal='43' />
+                  <column datatype='integer' name='Boundaries - ZIP Codes' ordinal='44' />
+                  <column datatype='integer' name='Community Areas' ordinal='45' />
+                  <column datatype='integer' name='Zip Codes' ordinal='46' />
+                  <column datatype='integer' name='Census Tracts' ordinal='47' />
+                  <column datatype='integer' name='Wards' ordinal='48' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Application by Ward Bar Graph'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Chicago Filming Permits (Chicago Filming Dataset)' name='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q'>
+            <column datatype='date' name='[Application Start Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Wards]' role='dimension' type='ordinal' />
+            <column-instance column='[Wards]' derivation='None' name='[none:Wards:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Application Start Date]' derivation='Year' name='[yr:Application Start Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]' direction='DESC' using='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[sum:Number of Records:qk]'>
+            <groupfilter function='member' level='[yr:Application Start Date:ok]' member='2019' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </computed-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='180' />
+                <format attr='maxwidth' value='180' />
+                <format attr='minheight' value='1020' />
+                <format attr='maxheight' value='1020' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]</rows>
+        <cols>([federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[yr:Application Start Date:ok] * [federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[sum:Number of Records:qk])</cols>
+      </table>
+      <simple-id uuid='{F5DFBA17-AD51-4FD6-B112-449DB6D5D61F}' />
+    </worksheet>
+    <worksheet name='Application by Ward Cross Tab'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Chicago Filming Permits (Chicago Filming Dataset)' name='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q'>
+            <column datatype='date' name='[Application Start Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Wards]' role='dimension' type='ordinal' />
+            <column-instance column='[Wards]' derivation='None' name='[none:Wards:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Application Start Date]' derivation='Year' name='[yr:Application Start Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]</rows>
+        <cols>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[yr:Application Start Date:ok]</cols>
+      </table>
+      <simple-id uuid='{4A272168-F3AF-4D96-ADA9-B2986C5EB50F}' />
+    </worksheet>
+    <worksheet name='Applications by ward map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Chicago Filming Permits (Chicago Filming Dataset)' name='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q'>
+            <column datatype='string' name='[Application Number]' role='dimension' type='nominal' />
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Wards]' role='dimension' type='ordinal' />
+            <column-instance column='[Latitude]' derivation='Avg' name='[avg:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude]' derivation='Avg' name='[avg:Longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Application Number]' derivation='None' name='[none:Application Number:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Wards]' derivation='None' name='[none:Wards:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[avg:Latitude:qk]' field-type='quantitative' max='5162010.2531941356' min='5113886.3616260532' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[avg:Longitude:qk]' field-type='quantitative' max='-9718796.1574552506' min='-9795058.0608343463' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]' />
+              <lod column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Application Number:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[avg:Latitude:qk]</rows>
+        <cols>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[avg:Longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{D10690D1-3229-44A1-817E-8C35387D1CD8}' />
+    </worksheet>
+    <worksheet name='Independent or big budget'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Independent or big budget Movies by Year
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Chicago Filming Permits (Chicago Filming Dataset)' name='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q'>
+            <column datatype='date' name='[Application End Date]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Application Expired Date]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Application Start Date]' role='dimension' type='ordinal' />
+            <column caption='Days Spent Shooting' datatype='integer' name='[Calculation_969399876317540352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Application Start Date],MAX([Application End Date], [Application Expired Date])) + 1' />
+            </column>
+            <column caption='Fees Per Day' datatype='real' name='[Calculation_969399876319293441]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Total Fees] - ZN([Waived Fees]))/[Calculation_969399876317540352]' />
+            </column>
+            <column caption='Independent or Big budget' datatype='string' name='[Calculation_969399876320677890]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_969399876319293441] =25 THEN &quot;Independent&quot; &#13;&#10;ELSEIF [Calculation_969399876319293441]=250 THEN &quot;Big Budget&quot;&#13;&#10;ELSE NULL&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Fees]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Waived Fees]' role='measure' type='quantitative' />
+            <column-instance column='[Application Start Date]' derivation='Month' name='[mn:Application Start Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_969399876320677890]' derivation='None' name='[none:Calculation_969399876320677890:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Application Start Date]' derivation='Year' name='[yr:Application Start Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[yr:Application Start Date:ok]'>
+            <groupfilter function='member' level='[yr:Application Start Date:ok]' member='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[yr:Application Start Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Calculation_969399876320677890:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[sum:Number of Records:qk]</rows>
+        <cols>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[mn:Application Start Date:ok]</cols>
+      </table>
+      <simple-id uuid='{E92183F5-7527-4DCB-A73C-81C1B8BA92AD}' />
+    </worksheet>
+    <worksheet name='Independent or big budget test'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Independent or big budget Movies by Year
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Chicago Filming Permits (Chicago Filming Dataset)' name='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e12s7q1mob9wy1h6rmbz1qn4k2q'>
+            <column datatype='date' name='[Application End Date]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Application Expired Date]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Application Start Date]' role='dimension' type='ordinal' />
+            <column caption='Days Spent Shooting' datatype='integer' name='[Calculation_969399876317540352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Application Start Date],MAX([Application End Date], [Application Expired Date])) + 1' />
+            </column>
+            <column caption='Fees Per Day' datatype='real' name='[Calculation_969399876319293441]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Total Fees] - ZN([Waived Fees]))/[Calculation_969399876317540352]' />
+            </column>
+            <column caption='Independent or Big budget' datatype='string' name='[Calculation_969399876320677890]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_969399876319293441] =25 THEN &quot;Independent&quot; &#13;&#10;ELSEIF [Calculation_969399876319293441]=250 THEN &quot;Big Budget&quot;&#13;&#10;ELSE NULL&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Fees]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Waived Fees]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_969399876320677890]' derivation='None' name='[none:Calculation_969399876320677890:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Application Start Date]' derivation='Month-Trunc' name='[tmn:Application Start Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Application Start Date]' derivation='Year' name='[yr:Application Start Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[yr:Application Start Date:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Application Start Date:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:Application Start Date:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[yr:Application Start Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Calculation_969399876320677890:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[sum:Number of Records:qk]</rows>
+        <cols>[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[tmn:Application Start Date:qk]</cols>
+      </table>
+      <simple-id uuid='{56F8A6E6-0F25-43B0-B608-19FC93CB4911}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='First Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='6' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Application by Ward Cross Tab' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='5' name='Applications by ward map' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='98000' id='9' name='Applications by ward map' pane-specification-id='2' param='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Application by Ward Cross Tab' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='5' is-fixed='true' name='Applications by ward map' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='98000' id='9' name='Applications by ward map' pane-specification-id='2' param='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{26329B5F-85DC-4D5A-B90F-30AF9710D4F6}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Application by Ward Cross Tab'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C20791F7-D5C8-4959-BAE5-F58506A540C9}' />
+    </window>
+    <window class='worksheet' name='Application by Ward Bar Graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0EFB17B3-B172-4DA0-9F70-E36A26FA2879}' />
+    </window>
+    <window class='worksheet' name='Applications by ward map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Wards:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{21EC383E-583A-48E6-9404-62D09FD34D79}' />
+    </window>
+    <window class='dashboard' name='First Dashboard'>
+      <viewpoints>
+        <viewpoint name='Application by Ward Cross Tab' />
+        <viewpoint name='Applications by ward map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{83F031CB-FB0C-4970-8253-03E8C185550E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Independent or big budget'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Calculation_969399876320677890:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{07B60541-4A54-4573-A706-FD3BB5FE5087}' />
+    </window>
+    <window class='worksheet' name='Independent or big budget test'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e12s7q1mob9wy1h6rmbz1qn4k2q].[none:Calculation_969399876320677890:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A045C29F-6A5E-4267-8E20-72A70B43F692}' />
+    </window>
+  </windows>
+</workbook>
