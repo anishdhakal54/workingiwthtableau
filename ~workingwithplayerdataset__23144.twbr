@@ -27,6 +27,9 @@
           <named-connection caption='Player Data' name='excel-direct.1krm70r12v21ty11vvztd1jru9v4'>
             <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Data Science/workingiwthtableau/Datasets/Player Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
+          <named-connection caption='Data to Join' name='pdf.0ysfas10iaahf71gbr3v91nxw47r'>
+            <connection class='pdf' cleaning='no' compat='no' dataRefreshTime='' interpretationMode='257' origfilename='D:/Data Science/workingiwthtableau/Datasets/Data to Join.pdf' password='' pgFrom='' pgTo='' server='' validate='no' />
+          </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='English Players+' type='union'>
           <columns header='yes'>
@@ -682,11 +685,44 @@
               <calculation class='tableau' formula='INT(TRIM( SPLIT( [Height], &quot;&apos;&quot;, 2 ) ))' />
             </column>
             <column datatype='string' name='[Height]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Position (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Position]' new-bin='true'>
+                <bin default-name='false' value='&quot;Defense&quot;'>
+                  <value>&quot;CB&quot;</value>
+                  <value>&quot;GK&quot;</value>
+                  <value>&quot;LB&quot;</value>
+                  <value>&quot;LCB&quot;</value>
+                  <value>&quot;LWB&quot;</value>
+                  <value>&quot;RB&quot;</value>
+                  <value>&quot;RCB&quot;</value>
+                  <value>&quot;RWB&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Forward&quot;'>
+                  <value>&quot;CF&quot;</value>
+                  <value>&quot;LF&quot;</value>
+                  <value>&quot;LS&quot;</value>
+                  <value>&quot;RS&quot;</value>
+                  <value>&quot;ST&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Midfilders&quot;'>
+                  <value>&quot;CAM&quot;</value>
+                  <value>&quot;CDM&quot;</value>
+                  <value>&quot;CM&quot;</value>
+                  <value>&quot;LCM&quot;</value>
+                  <value>&quot;LDM&quot;</value>
+                  <value>&quot;LM&quot;</value>
+                  <value>&quot;LW&quot;</value>
+                  <value>&quot;RCM&quot;</value>
+                  <value>&quot;RDM&quot;</value>
+                  <value>&quot;RM&quot;</value>
+                  <value>&quot;RW&quot;</value>
+                </bin>
+              </calculation>
+            </column>
             <column datatype='string' name='[Position]' role='dimension' type='nominal' />
             <column datatype='integer' name='[Weight]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_1628614272705949696]' derivation='Avg' name='[avg:Calculation_1628614272705949696:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Weight]' derivation='Avg' name='[avg:Weight:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Position]' derivation='None' name='[none:Position:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
@@ -709,7 +745,7 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <color column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Position:nk]' />
+              <color column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)]' />
             </encodings>
             <style>
               <style-rule element='pane'>
@@ -751,7 +787,7 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='0' param='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Position:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)]' type='color' />
           </strip>
         </edge>
       </cards>
