@@ -3,12 +3,19 @@
 <!-- build 20232.23.0611.2007                               -->
 <workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
     <SheetIdentifierTracking />
+    <SpatialFileLayer />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
   <preferences>
@@ -904,6 +911,14 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
           </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Page    1 Table  1+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
           <metadata-record class='column'>
             <remote-name>ID</remote-name>
             <remote-type>130</remote-type>
@@ -915,6 +930,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Name</remote-name>
@@ -927,6 +943,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Age</remote-name>
@@ -938,6 +955,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Photo</remote-name>
@@ -950,6 +968,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Nationality</remote-name>
@@ -962,6 +981,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Overall</remote-name>
@@ -973,6 +993,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Potential</remote-name>
@@ -984,6 +1005,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Special</remote-name>
@@ -995,6 +1017,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Preferred Foot</remote-name>
@@ -1007,6 +1030,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>International Reputation</remote-name>
@@ -1018,6 +1042,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Weak Foot</remote-name>
@@ -1029,6 +1054,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Skill Moves</remote-name>
@@ -1041,6 +1067,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Work Rate</remote-name>
@@ -1053,6 +1080,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Body Type</remote-name>
@@ -1065,6 +1093,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Real Face</remote-name>
@@ -1077,6 +1106,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Position</remote-name>
@@ -1089,6 +1119,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Jersey Number</remote-name>
@@ -1101,6 +1132,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Joined</remote-name>
@@ -1113,6 +1145,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Contract Valid Until</remote-name>
@@ -1125,6 +1158,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Height</remote-name>
@@ -1137,6 +1171,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Weight</remote-name>
@@ -1148,6 +1183,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sheet</remote-name>
@@ -1160,6 +1196,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Table Name</remote-name>
@@ -1172,14 +1209,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Page    1 Table  1+]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>ID</remote-name>
@@ -1192,6 +1222,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Name</remote-name>
@@ -1204,6 +1235,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Club</remote-name>
@@ -1216,6 +1248,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Value</remote-name>
@@ -1227,6 +1260,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Wage</remote-name>
@@ -1238,6 +1272,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Release Clause</remote-name>
@@ -1249,6 +1284,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Table Name</remote-name>
@@ -1261,10 +1297,19 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[English Players_B61893886070479EA417233883BC76E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='integer' name='[Calculation_1601029725108621313]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='3 + [Parameters].[Parameter 3]' />
+      </column>
+      <column caption='Index' datatype='integer' name='[Calculation_1601029725111234562]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='INDEX()'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
       <column caption='Height (Inches)' datatype='integer' name='[Calculation_1628614272705949696]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='([Height - Split 1]*12) + [Height - Split 2]' />
       </column>
@@ -1274,8 +1319,14 @@
       <column aggregation='CountD' caption='Height - Split 2' datatype='integer' datatype-customized='true' name='[Height - Split 2]' role='measure' type='quantitative' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Height]'>
         <calculation class='tableau' formula='INT(TRIM( SPLIT( [Height], &quot;&apos;&quot;, 2 ) ))' />
       </column>
+      <column datatype='string' name='[Nationality]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;England&quot;' value='&quot;United Kingdom&quot;' />
+          <semantic-value key='&quot;Korea Republic&quot;' value='&quot;South Korea&quot;' />
+        </semantic-values>
+      </column>
       <column datatype='string' name='[Position (group)]' role='dimension' type='nominal'>
-        <calculation class='categorical-bin' column='[Position]' new-bin='true'>
+        <calculation class='categorical-bin' column='[Position]' default='&quot;Other&quot;' new-bin='true'>
           <bin default-name='false' value='&quot;Defense&quot;'>
             <value>&quot;CB&quot;</value>
             <value>&quot;GK&quot;</value>
@@ -1309,7 +1360,7 @@
         </calculation>
       </column>
       <column datatype='string' name='[Position]' role='dimension' type='nominal' />
-      <column aggregation='CountD' datatype='real' default-format='c&quot;€&quot;#,##0.00;(&quot;€&quot;#,##0.00)' name='[Release Clause]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='c&quot;€&quot;#,##0.00;(&quot;€&quot;#,##0.00)' name='[Release Clause]' role='measure' type='quantitative' />
       <column datatype='string' name='[Skill Moves]' role='dimension' type='nominal'>
         <aliases>
           <alias key='&quot;1&quot;' value='Weak Skill' />
@@ -1319,10 +1370,36 @@
           <alias key='&quot;5&quot;' value='High Skill' />
         </aliases>
       </column>
-      <column aggregation='CountD' datatype='real' default-format='c&quot;€&quot;#,##0.00;(&quot;€&quot;#,##0.00)' name='[Value]' role='measure' type='quantitative' />
-      <column aggregation='CountD' datatype='real' default-format='c&quot;€&quot;#,##0.00;(&quot;€&quot;#,##0.00)' name='[Wage]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='c&quot;€&quot;#,##0;(&quot;€&quot;#,##0)' name='[Value]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='c&quot;€&quot;#,##0.00;(&quot;€&quot;#,##0.00)' name='[Wage]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='English Players' datatype='table' name='[__tableau_internal_object_id__].[English Players_B61893886070479EA417233883BC76E6]' role='measure' type='quantitative' />
+      <group caption='Action (Nationality)' hidden='true' name='[Action (Nationality)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Nationality]' />
+        </groupfilter>
+      </group>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Position (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Defense&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Midfilders&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Forward&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -1359,6 +1436,17 @@
         <field-sort-custom-order field=':Measure Names' />
         <field-sort-custom-order field='Multiple Values' />
       </field-sort-info>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='top Five Team' caption='teams' datatype='integer' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='5'>
+          <calculation class='tableau' formula='5' />
+          <aliases>
+            <alias key='1' value='Top Team' />
+            <alias key='5' value='top Five Team' />
+            <alias key='10' value='Top ten Team' />
+            <alias key='20' value='Top twenty team' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
           <object caption='English Players' id='English Players_B61893886070479EA417233883BC76E6'>
@@ -1784,7 +1872,166 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column alias='Top Team' caption='Top Team by player value' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <aliases>
+          <alias key='1' value='Top Team' />
+          <alias key='5' value='Top 5 Team' />
+          <alias key='10' value='Top 10 Team' />
+          <alias key='20' value='Top 20 Team' />
+        </aliases>
+        <members>
+          <member alias='Top Team' value='1' />
+          <member alias='Top 10 Team' value='10' />
+          <member alias='Top 20 Team' value='20' />
+          <member alias='Top 5 Team' value='5' />
+        </members>
+      </column>
+      <column alias='Top Team' caption='top team by player  value' datatype='integer' name='[Parameter 2]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <aliases>
+          <alias key='1' value='Top Team' />
+          <alias key='5' value='Top 5 Team' />
+          <alias key='10' value='Top 10 Team' />
+          <alias key='20' value='Top 20 Team' />
+        </aliases>
+        <members>
+          <member alias='Top Team' value='1' />
+          <member alias='Top 5 Team' value='5' />
+          <member alias='Top 10 Team' value='10' />
+          <member alias='Top 20 Team' value='20' />
+        </members>
+      </column>
+      <column alias='top Five Team' caption='teams' datatype='integer' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='5'>
+        <calculation class='tableau' formula='5' />
+        <aliases>
+          <alias key='1' value='Top Team' />
+          <alias key='5' value='top Five Team' />
+          <alias key='10' value='Top ten Team' />
+          <alias key='20' value='Top twenty team' />
+        </aliases>
+        <members>
+          <member alias='Top Team' value='1' />
+          <member alias='top Five Team' value='5' />
+          <member alias='Top ten Team' value='10' />
+          <member alias='Top twenty team' value='20' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='Data to Blend' inline='true' name='federated.1pkumwo06qidgj1glz99f1g9abd3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data to Blend' name='ogrdirect.0s15jtz1vgobt411m37ap06gmh2w'>
+            <connection class='ogrdirect' directory='D:/Data Science/workingiwthtableau/Datasets' filename='Data to Blend.kml' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.0s15jtz1vgobt411m37ap06gmh2w' name='Data_to_Blend' table='[Data_to_Blend]' type='table'>
+          <columns>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Description' ordinal='1' />
+            <column datatype='spatial' name='Geometry' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.0s15jtz1vgobt411m37ap06gmh2w' name='Data_to_Blend' table='[Data_to_Blend]' type='table'>
+          <columns>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Description' ordinal='1' />
+            <column datatype='spatial' name='Geometry' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Data_to_Blend]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_to_Blend_0885A6E18A354C4AA6F45E79FF4F2640]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[Data_to_Blend]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_to_Blend_0885A6E18A354C4AA6F45E79FF4F2640]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Data_to_Blend]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_to_Blend_0885A6E18A354C4AA6F45E79FF4F2640]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Stadium' datatype='string' name='[Description]' role='dimension' type='nominal' />
+      <column caption='Club' datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data_to_Blend' datatype='table' name='[__tableau_internal_object_id__].[Data_to_Blend_0885A6E18A354C4AA6F45E79FF4F2640]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data_to_Blend' id='Data_to_Blend_0885A6E18A354C4AA6F45E79FF4F2640'>
+            <properties context=''>
+              <relation connection='ogrdirect.0s15jtz1vgobt411m37ap06gmh2w' name='Data_to_Blend' table='[Data_to_Blend]' type='table'>
+                <columns>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='Description' ordinal='1' />
+                  <column datatype='spatial' name='Geometry' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter1' name='[Action1_3C7B8A1EC4904369BDFD26A670F9CE4F]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Map of Countries by player value' />
+      <link caption='Filter1' delimiter=',' escape='\' expression='tsl:Dashboard%201?%5Bfederated.13iis5q1w5hmmh10idwka1oy34s9%5D.%5BNationality%5D~s0=&lt;[federated.13iis5q1w5hmmh10idwka1oy34s9].[Nationality]~na&gt;' include-null='true' multi-select='true' url-escape='true' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Map of Countries by player value' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='English Players+ (Player Data)' name='federated.13iis5q1w5hmmh10idwka1oy34s9' />
+    </datasources>
+    <datasource-dependencies datasource='federated.13iis5q1w5hmmh10idwka1oy34s9'>
+      <column datatype='string' name='[Nationality]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;England&quot;' value='&quot;United Kingdom&quot;' />
+          <semantic-value key='&quot;Korea Republic&quot;' value='&quot;South Korea&quot;' />
+        </semantic-values>
+      </column>
+    </datasource-dependencies>
+  </actions>
   <worksheets>
     <worksheet name='Average measurement by position'>
       <table>
@@ -1804,7 +2051,7 @@
             </column>
             <column datatype='string' name='[Height]' role='dimension' type='nominal' />
             <column datatype='string' name='[Position (group)]' role='dimension' type='nominal'>
-              <calculation class='categorical-bin' column='[Position]' new-bin='true'>
+              <calculation class='categorical-bin' column='[Position]' default='&quot;Other&quot;' new-bin='true'>
                 <bin default-name='false' value='&quot;Defense&quot;'>
                   <value>&quot;CB&quot;</value>
                   <value>&quot;GK&quot;</value>
@@ -1881,9 +2128,437 @@
       </table>
       <simple-id uuid='{5B62502F-95FA-42A0-AABA-34D494B5C1A0}' />
     </worksheet>
+    <worksheet name='Crosstab Map of Countries by player value'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='English Players+ (Player Data)' name='federated.13iis5q1w5hmmh10idwka1oy34s9' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.13iis5q1w5hmmh10idwka1oy34s9'>
+            <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Nationality]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;England&quot;' value='&quot;United Kingdom&quot;' />
+                <semantic-value key='&quot;Korea Republic&quot;' value='&quot;South Korea&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' default-format='c&quot;€&quot;#,##0;(&quot;€&quot;#,##0)' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Nationality]' derivation='None' name='[none:Nationality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Action (Nationality)]'>
+            <groupfilter function='member' level='[Nationality]' member='&quot;Australia&quot;' user:ui-action-filter='[Action1_3C7B8A1EC4904369BDFD26A670F9CE4F]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.13iis5q1w5hmmh10idwka1oy34s9].[Action (Nationality)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Club:nk] / ([federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Nationality:nk] / [federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Name:nk]))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{0278B56A-7B4B-4F6B-8766-DD3BCE982F05}' />
+    </worksheet>
+    <worksheet name='Map of Countries by player value'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='English Players+ (Player Data)' name='federated.13iis5q1w5hmmh10idwka1oy34s9' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.13iis5q1w5hmmh10idwka1oy34s9'>
+            <column datatype='string' name='[Nationality]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;England&quot;' value='&quot;United Kingdom&quot;' />
+                <semantic-value key='&quot;Korea Republic&quot;' value='&quot;South Korea&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' default-format='c&quot;€&quot;#,##0;(&quot;€&quot;#,##0)' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Nationality]' derivation='None' name='[none:Nationality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' max='500000000.0' min='10000000.0' num-steps='5' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' value='Legend'>
+              <formatted-text>
+                <run>Legend</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' />
+              <lod column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Nationality:nk]' />
+              <geometry column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.13iis5q1w5hmmh10idwka1oy34s9].[Latitude (generated)]</rows>
+        <cols>[federated.13iis5q1w5hmmh10idwka1oy34s9].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D97C2073-20B3-4705-8B30-993163D0BD45}' />
+    </worksheet>
+    <worksheet name='Spend of Each club by position group'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='English Players+ (Player Data)' name='federated.13iis5q1w5hmmh10idwka1oy34s9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13iis5q1w5hmmh10idwka1oy34s9'>
+            <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Position (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Position]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='false' value='&quot;Defense&quot;'>
+                  <value>&quot;CB&quot;</value>
+                  <value>&quot;GK&quot;</value>
+                  <value>&quot;LB&quot;</value>
+                  <value>&quot;LCB&quot;</value>
+                  <value>&quot;LWB&quot;</value>
+                  <value>&quot;RB&quot;</value>
+                  <value>&quot;RCB&quot;</value>
+                  <value>&quot;RWB&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Forward&quot;'>
+                  <value>&quot;CF&quot;</value>
+                  <value>&quot;LF&quot;</value>
+                  <value>&quot;LS&quot;</value>
+                  <value>&quot;RS&quot;</value>
+                  <value>&quot;ST&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Midfilders&quot;'>
+                  <value>&quot;CAM&quot;</value>
+                  <value>&quot;CDM&quot;</value>
+                  <value>&quot;CM&quot;</value>
+                  <value>&quot;LCM&quot;</value>
+                  <value>&quot;LDM&quot;</value>
+                  <value>&quot;LM&quot;</value>
+                  <value>&quot;LW&quot;</value>
+                  <value>&quot;RCM&quot;</value>
+                  <value>&quot;RDM&quot;</value>
+                  <value>&quot;RM&quot;</value>
+                  <value>&quot;RW&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Position]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;€&quot;#,##0;(&quot;€&quot;#,##0)' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Club:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)]' />
+            </encodings>
+            <reference-line axis-column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='value' probability='95' scope='per-cell' value-column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' z-order='1' />
+            <reference-line axis-column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' enable-instant-analytics='true' formula='average' id='refline1' label='&lt;Computation&gt;: &lt;Value&gt;' label-type='custom' probability='95' scope='per-table' value-column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' z-order='2' />
+          </pane>
+        </panes>
+        <rows>[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Club:nk]</rows>
+        <cols>[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]</cols>
+      </table>
+      <simple-id uuid='{8FB4EF19-AEC5-4E35-9FE4-AD7BF8659E29}' />
+    </worksheet>
+    <worksheet name='Top 5 player by position'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='English Players+ (Player Data)' name='federated.13iis5q1w5hmmh10idwka1oy34s9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13iis5q1w5hmmh10idwka1oy34s9'>
+            <column caption='Index' datatype='integer' name='[Calculation_1601029725111234562]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='INDEX()'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Position (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Position]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='false' value='&quot;Defense&quot;'>
+                  <value>&quot;CB&quot;</value>
+                  <value>&quot;GK&quot;</value>
+                  <value>&quot;LB&quot;</value>
+                  <value>&quot;LCB&quot;</value>
+                  <value>&quot;LWB&quot;</value>
+                  <value>&quot;RB&quot;</value>
+                  <value>&quot;RCB&quot;</value>
+                  <value>&quot;RWB&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Forward&quot;'>
+                  <value>&quot;CF&quot;</value>
+                  <value>&quot;LF&quot;</value>
+                  <value>&quot;LS&quot;</value>
+                  <value>&quot;RS&quot;</value>
+                  <value>&quot;ST&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Midfilders&quot;'>
+                  <value>&quot;CAM&quot;</value>
+                  <value>&quot;CDM&quot;</value>
+                  <value>&quot;CM&quot;</value>
+                  <value>&quot;LCM&quot;</value>
+                  <value>&quot;LDM&quot;</value>
+                  <value>&quot;LM&quot;</value>
+                  <value>&quot;LW&quot;</value>
+                  <value>&quot;RCM&quot;</value>
+                  <value>&quot;RDM&quot;</value>
+                  <value>&quot;RM&quot;</value>
+                  <value>&quot;RW&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Position]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;€&quot;#,##0;(&quot;€&quot;#,##0)' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1601029725111234562]' derivation='User' name='[usr:Calculation_1601029725111234562:ok:6]' pivot='key' type='ordinal'>
+              <table-calc level-break='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Name:nk]' ordering-type='Field'>
+                <order field='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)]' />
+                <order field='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Name:nk]' />
+                <sort direction='DESC' using='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' />
+              </table-calc>
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[usr:Calculation_1601029725111234562:ok:6]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[usr:Calculation_1601029725111234562:ok:6]' member='1' />
+              <groupfilter function='member' level='[usr:Calculation_1601029725111234562:ok:6]' member='2' />
+              <groupfilter function='member' level='[usr:Calculation_1601029725111234562:ok:6]' member='3' />
+              <groupfilter function='member' level='[usr:Calculation_1601029725111234562:ok:6]' member='4' />
+              <groupfilter function='member' level='[usr:Calculation_1601029725111234562:ok:6]' member='5' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.13iis5q1w5hmmh10idwka1oy34s9].[usr:Calculation_1601029725111234562:ok:6]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)] / [federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Name:nk])</rows>
+        <cols>[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]</cols>
+      </table>
+      <simple-id uuid='{85218E9D-8379-4984-8A28-06D31BFB811C}' />
+    </worksheet>
+    <worksheet name='Top Team by player Value Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data to Blend' name='federated.1pkumwo06qidgj1glz99f1g9abd3' />
+            <datasource name='Parameters' />
+            <datasource caption='English Players+ (Player Data)' name='federated.13iis5q1w5hmmh10idwka1oy34s9' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='top Five Team' caption='teams' datatype='integer' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='5'>
+              <calculation class='tableau' formula='5' />
+              <aliases>
+                <alias key='1' value='Top Team' />
+                <alias key='5' value='top Five Team' />
+                <alias key='10' value='Top ten Team' />
+                <alias key='20' value='Top twenty team' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.13iis5q1w5hmmh10idwka1oy34s9'>
+            <column datatype='string' name='[Club]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;€&quot;#,##0;(&quot;€&quot;#,##0)' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Club]' derivation='None' name='[none:Club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1pkumwo06qidgj1glz99f1g9abd3'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Club' datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Club:nk]'>
+            <groupfilter count='[Parameters].[Parameter 3]' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Value])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Club:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.13iis5q1w5hmmh10idwka1oy34s9].[none:Club:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1pkumwo06qidgj1glz99f1g9abd3].[Longitude (generated)]' field-type='quantitative' max='528244.81793515431' min='-1375676.1543409824' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1pkumwo06qidgj1glz99f1g9abd3].[Latitude (generated)]' field-type='quantitative' max='7403280.3639888512' min='6271135.6025769981' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' />
+              <lod column='[federated.1pkumwo06qidgj1glz99f1g9abd3].[clct:Geometry:nk]' />
+              <lod column='[federated.1pkumwo06qidgj1glz99f1g9abd3].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-transparency' value='193' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pkumwo06qidgj1glz99f1g9abd3].[Latitude (generated)]</rows>
+        <cols>[federated.1pkumwo06qidgj1glz99f1g9abd3].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{F3787A0E-14C8-49C6-8590-E18317AF663E}' />
+    </worksheet>
   </worksheets>
-  <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' maximized='true' name='Average measurement by position'>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98046' id='7' param='horz' type-v2='layout-flow' w='98906' x='547' y='977'>
+            <zone h='98046' id='5' type-v2='layout-basic' w='87962' x='547' y='977'>
+              <zone h='98046' id='3' name='Map of Countries by player value' w='43981' x='547' y='977'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98046' id='9' name='Crosstab Map of Countries by player value' w='43981' x='44528' y='977'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98046' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='10944' x='88509' y='977'>
+              <zone h='8914' id='8' name='Map of Countries by player value' pane-specification-id='0' param='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' type-v2='color' w='10944' x='88509' y='977'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AE2E0F5A-683B-4B5C-AFDA-51C83CA8686B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='Average measurement by position'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1909,118 +2584,149 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
       <simple-id uuid='{8AFB0CB5-5AE2-4C92-8627-71016C45ABE8}' />
     </window>
+    <window class='worksheet' name='Spend of Each club by position group'>
+      <cards>
+        <edge name='left'>
+          <strip size='139'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13iis5q1w5hmmh10idwka1oy34s9].[Position (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6C07B100-67EA-4A9E-8745-6FD573B0591D}' />
+    </window>
+    <window class='worksheet' name='Top Team by player Value Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' type='size' />
+            <card mode='compact' param='[Parameters].[Parameter 3]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{86AE26AC-F80B-4E86-9DAD-865B17376532}' />
+    </window>
+    <window class='worksheet' name='Map of Countries by player value'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13iis5q1w5hmmh10idwka1oy34s9].[sum:Value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EF883749-1E25-42CF-806D-99F9C1611A1E}' />
+    </window>
+    <window class='worksheet' name='Crosstab Map of Countries by player value'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D456ACF3-62E1-471D-8C7C-E58612734908}' />
+    </window>
+    <window class='worksheet' name='Top 5 player by position'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{138E9B42-F6D5-4794-89C4-50C73986221A}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Crosstab Map of Countries by player value' />
+        <viewpoint name='Map of Countries by player value'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <device-preview visible='true' />
+      <simple-id uuid='{10BAC6D3-DC6B-4DFC-AF14-E719A28D435E}' />
+    </window>
   </windows>
-  <thumbnails>
-    <thumbnail height='192' name='Average measurement by position' width='192'>
-      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
-      YII=
-    </thumbnail>
-  </thumbnails>
 </workbook>
